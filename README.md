@@ -1,2 +1,12 @@
-# Hotel-Reservation
-A hotel manager has to process N bookings of rooms for the next season. His hotel has K rooms. Bookings contain an arrival date and a departure date. He wants to find out whether there are enough rooms in the hotel to satisfy the demand.
+# Requiremnt
+ - node >= v10.15.3
+ - npm >= v6.4.1
+ - nodemon >= v1.19.1
+
+ # Set up
+
+ - Clone project
+ - cd project folder -> run "npm i" -> run "npm run postinstall"
+
+ # Run Project
+ - cd prject folder -> run "npm start"
