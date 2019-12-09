@@ -12,4 +12,7 @@
  - cd project folder -> run "npm i" -> run "npm run postinstall"
 
  # Run Project
- - cd project folder -> run "npm start"
+ - cd project folder -> run "node index"
+
+ # Test 
+ - cd project folder -> run "npm test"
