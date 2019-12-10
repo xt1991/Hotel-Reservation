@@ -5,10 +5,10 @@ exports.checkRoomAvailable = (arrivalDate, departureDate, roomAvail) => {
     // remove first booking
     if (index > 0) {
       if (departureDate[index - 1] > prop) {
-        return !!(roomAvail >= 2)
+        return roomAvail >= 2 ? 1 : 0
       }
     }
-    return true
+    return 1
   })
 
   return result
